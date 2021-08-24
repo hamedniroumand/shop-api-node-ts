@@ -1,0 +1,28 @@
+{
+  "name": "shop_core",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node sec/server.ts",
+    "start": "ts-node dist/server.ts",
+    "build": "tsc -p ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.8",
+    "tedis": "^0.1.12",
+    "ts-node": "^9.1.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.11",
+    "@types/mongoose": "^5.10.5",
+    "@types/node": "^15.0.2",
+    "tslint": "^6.1.3"
+  }
+}
